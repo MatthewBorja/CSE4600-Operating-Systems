@@ -1,0 +1,76 @@
+Script started on 2023-03-03 18:22:19-08:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="119" LINES="76"]
+]0;007819520@csusb.edu@jb358-3:~/hw2[007819520@csusb.edu@jb358-3 hw2]$ ./myshell
+myshell > help
+Stephen Brennan's LSH
+Type program names and arguments, and hit enter.
+The following are built in:
+  cd
+  help
+  exit
+  setshellname
+  stop
+  setterminator
+  newname
+  listnewnames
+  savenewnames
+  readnewnames
+Use the man command for information on other programs.
+myshell > ls 0 -l
+total 39
+-rw-r--r-- 1 007819520@csusb.edu domain users@csusb.edu 10239 Mar  3 18:16 main.c
+-rwxr-xr-x 1 007819520@csusb.edu domain users@csusb.edu 23928 Mar  3 18:16 myshell
+-rw-r--r-- 1 007819520@csusb.edu domain users@csusb.edu     0 Mar  3 18:22 typescript
+myshell > setshellname mysh
+mysh > setterminator $
+mysh $ newname myhelp help
+mysh $ newname mycopy copy   p
+mysh $ newname mycat cat
+mysh $ newname mydel rm
+mysh $ savenewnames myaliases.txt
+mysh $ listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rm
+mysh $ mycat myaliases.txt
+myhelp
+help
+mycopy
+cp
+mycat
+cat
+mydel
+rm
+mysh $ mycopy myaliases.txt myfile
+mysh $ c mycat myfile
+myhelp
+help
+mycopy
+cp
+mycat
+cat
+mydel
+rm
+mysh $ cat myfile
+myhelp
+help
+mycopy
+cp
+mycat
+cat
+mydel
+rm
+mysh $ ls
+main.c	myaliases.txt  myfile  myshell	typescript
+mysh $ listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rm
+mysh $ readnewnames myaliases.txt
+mysh $ stop
+Segmentation fault (core dumped)
+]0;007819520@csusb.edu@jb358-3:~/hw2[007819520@csusb.edu@jb358-3 hw2]$ exit
+exit
+
+Script done on 2023-03-03 18:24:22-08:00 [COMMAND_EXIT_CODE="139"]
