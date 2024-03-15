@@ -1,0 +1,118 @@
+Script started on 2023-04-20 17:28:52-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="104" LINES="85"]
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ ls
+badcnt.c  goodcnt.c  [0m[01;32mhw5[0m  hw5.c  typescript  [01;32mxbadcnt[0m  [01;32mxgoodcnt[0m
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ l[K./xbadcnt.c[K[K[K[K[K[K[K[K[K[K[Kgcc badcnt.c -o b[Kxbadcnt -lpthread
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ ./xbadcnt
+
+ BOOM! cnt is [1012156], should be 2000000
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ gcc goodcnt.c -o xgoodcnt -lpthread
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ ./xgoodco[Knt
+
+ OK! cnt is [2000000]
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ gcc hw5.c -o hw5 -lpthread
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ ./hw5 2[K3 3[K[K[K5 5 [K
+Producer [139920845448960] produced 383.
+Producer [139920845448960] produced 915.
+Producer [139920845448960] produced 793.
+Producer [139920837056256] produced 886.
+Producer [139920828663552] produced 777.
+Consumer [139920803485440] consumed 383.
+Consumer [139920803485440] consumed 915.
+Consumer [139920795092736] consumed 793.
+Producer [139920811878144] produced 386.
+Consumer [139920803485440] consumed 886.
+Producer [139920845448960] produced 335.
+Consumer [139920786700032] consumed 777.
+Consumer [139920795092736] consumed 386.
+Producer [139920820270848] produced 649.
+Producer [139920820270848] produced 690.
+Producer [139920837056256] produced 492.
+Consumer [139920706369280] consumed 335.
+Consumer [139920786700032] consumed 649.
+Producer [139920811878144] produced 362.
+Producer [139920828663552] produced 421.
+Producer [139920811878144] produced 926.
+Consumer [139920786700032] consumed 690.
+Producer [139920820270848] produced 59.
+Consumer [139920697976576] consumed 492.
+Consumer [139920795092736] consumed 362.
+Consumer [139920803485440] consumed 421.
+Consumer [139920786700032] consumed 926.
+Producer [139920837056256] produced 763.
+Producer [139920837056256] produced 736.
+Consumer [139920795092736] consumed 59.
+Consumer [139920706369280] consumed 763.
+Producer [139920811878144] produced 426.
+Producer [139920845448960] produced 27.
+Producer [139920828663552] produced 540.
+Producer [139920820270848] produced 172.
+Consumer [139920795092736] consumed 736.
+Consumer [139920706369280] consumed 426.
+Producer [139920837056256] produced 211.
+Producer [139920811878144] produced 368.
+Consumer [139920697976576] consumed 27.
+Producer [139920845448960] produced 567.
+Consumer [139920786700032] consumed 540.
+Consumer [139920795092736] consumed 172.
+Consumer [139920706369280] consumed 211.
+Consumer [139920803485440] consumed 368.
+Consumer [139920697976576] consumed 567.
+Producer [139920828663552] produced 429.
+Producer [139920820270848] produced 782.
+Consumer [139920786700032] consumed 429.
+Consumer [139920795092736] consumed 782.
+Producer [139920828663552] produced 67.
+Producer [139920811878144] produced 862.
+Consumer [139920706369280] consumed 67.
+Consumer [139920803485440] consumed 862.
+Producer [139920828663552] produced 929.
+Producer [139920837056256] produced 530.
+Producer [139920845448960] produced 123.
+Producer [139920820270848] produced 135.
+Producer [139920828663552] produced 22.
+Consumer [139920706369280] consumed 929.
+Consumer [139920786700032] consumed 530.
+Producer [139920837056256] produced 58.
+Consumer [139920697976576] consumed 123.
+Consumer [139920795092736] consumed 135.
+Producer [139920811878144] produced 802.
+Consumer [139920803485440] consumed 22.
+Consumer [139920706369280] consumed 58.
+Producer [139920845448960] produced 69.
+Producer [139920820270848] produced 167.
+Consumer [139920697976576] consumed 802.
+Consumer [139920795092736] consumed 69.
+Producer [139920811878144] produced 11.
+Producer [139920845448960] produced 42.
+Consumer [139920803485440] consumed 167.
+Producer [139920828663552] produced 393.
+Producer [139920820270848] produced 229.
+Consumer [139920697976576] consumed 11.
+Producer [139920837056256] produced 456.
+Consumer [139920786700032] consumed 42.
+Consumer [139920706369280] consumed 393.
+Consumer [139920795092736] consumed 229.
+Producer [139920811878144] produced 373.
+Consumer [139920803485440] consumed 456.
+Producer [139920845448960] produced 421.
+Producer [139920828663552] produced 919.
+Producer [139920820270848] produced 784.
+Consumer [139920697976576] consumed 373.
+Producer [139920837056256] produced 537.
+Consumer [139920786700032] consumed 421.
+Consumer [139920803485440] consumed 919.
+Consumer [139920706369280] consumed 784.
+Consumer [139920795092736] consumed 537.
+Producer [139920811878144] produced 198.
+Producer [139920828663552] produced 324.
+Producer [139920820270848] produced 315.
+Consumer [139920786700032] consumed 198.
+Consumer [139920786700032] consumed 324.
+Producer [139920837056256] produced 370.
+Consumer [139920697976576] consumed 315.
+Consumer [139920706369280] consumed 370.
+Exit the program
+]0;007819520@csusb.edu@jb358-3:~/hw5[007819520@csusb.edu@jb358-3 hw5]$ exit
+exit
+
+Script done on 2023-04-20 17:30:56-07:00 [COMMAND_EXIT_CODE="0"]
