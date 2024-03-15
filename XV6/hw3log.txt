@@ -1,0 +1,80 @@
+Script started on 2023-03-21 17:47:29-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="157" LINES="85"]
+]0;007819520@csusb.edu@jb358-3:~/hw3/xv6-public[007819520@csusb.edu@jb358-3 xv6-public]$ make qemu-nox
+which: no qemu in (/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/opt/anaconda3/bin:/opt/Xilinx/SDK/2018.2/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/arm/lin/bin:/opt/Xilinx/SDK/2018.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-linux/bin:/opt/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/bin:/opt/Xilinx/SDK/2018.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/opt/Xilinx/SDK/2018.2/tps/lnx64/cmake-3.3.2/bin:/opt/Xilinx/DocNav:/opt/Xilinx/Vivado/2018.2/bin:/usr/lib64/openmpi/bin:/opt/UCSF/Chimera64-1.12/bin:/usr/local/MATLAB/R2018a/bin:/share/bin:/usr/local/racket/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:/opt/Xilinx/Vivado_HLS/2017.2/bin:/opt/android-studio/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools:/usr/java/latest/bin:/usr/lib64/qt-3.3/bin:/usr/share/Modules/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/csusb.edu/007819520/.local/bin:/home/csusb.edu/007819520/bin)
+qemu-system-i386 -nographic -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 2 -m 512 
+c[?7l[2J[0mSeaBIOS (version 1.12.0-2.fc30)
+
+
+iPXE (http://ipxe.org) 00:03.0 C980 PCI2.10 PnP PMM+1FF91280+1FED1280 C980
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk...
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16188
+echo           2 4 15028
+forktest       2 5 9352
+grep           2 6 18384
+init           2 7 15632
+kill           2 8 15056
+ln             2 9 14928
+ls             2 10 17552
+mkdir          2 11 15172
+rm             2 12 15148
+sh             2 13 27672
+stressfs       2 14 16064
+usertests      2 15 67000
+wc             2 16 16912
+zombie         2 17 14744
+cp             2 18 15596
+ps             2 19 14756
+touch          2 20 15496
+console        3 21 0
+$ cp README myfile
+$ ls
+.              1 1 512
+..             1 1 512
+README         2 2 2286
+cat            2 3 16188
+echo           2 4 15028
+forktest       2 5 9352
+grep           2 6 18384
+init           2 7 15632
+kill           2 8 15056
+ln             2 9 14928
+ls             2 10 17552
+mkdir          2 11 15172
+rm             2 12 15148
+sh             2 13 27672
+stressfs       2 14 16064
+usertests      2 15 67000
+wc             2 16 16912
+zombie         2 17 14744
+cp             2 18 15596
+ps             2 19 14756
+touch          2 20 15496
+console        3 21 0
+myfile         2 22 2286
+$ ps
+name 	 pid 	 state 
+init 	 1 	 SLEEPING 
+ sh 	 2 	 SLEEPING 
+ ps 	 6 	 RUNNING 
+ $ touch file1 file2 file3
+$ date
+exec: fail
+exec date failed
+$ QEMU 3.1.1 monitor - type 'help' for more information
+(qemu) q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K
+]0;007819520@csusb.edu@jb358-3:~/hw3/xv6-public[007819520@csusb.edu@jb358-3 xv6-public]$ exit
+exit
+
+Script done on 2023-03-21 17:48:33-07:00 [COMMAND_EXIT_CODE="0"]
